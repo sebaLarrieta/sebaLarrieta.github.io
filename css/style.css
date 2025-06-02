@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  h1{
+      color:rgba(0, 17, 255, 0.979);
+      font-family: verdana, Geneva, Tahoma, sans-serif;
+      font-family: 50px;
+      font-weight: 100px;
+      font-style: italic;
+      text-align: center;
+      text-decoration: overline;
+  }
+  
+  .tipo{
+      font-family: "Open Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 400px;
+      font-style: normal;
+      font-variation-settings: "wdth" 100;
+    }
+  
+  
+    h3{
+      text-decoration: underline;
+    }
+  
+    p{
+      font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
+    }
+  
+    .card{
+      background-color: rgba(0, 183, 255, 0.575);
+      width: 300px;
+      border: 5px;
+      border-radius: 10px;
+      margin: 25px;
+      padding: 10px;
+      text-align: center;
+    } 
+
+    .card img{
+      max-width: 100px;
+    }
+    .contenedor-limite{
+      margin: 0 auto;
+      max-width: 400px;
+      background-color: brown;
+    }
+  
+    body{
+      background-color: crimson;
+    }
+  
+  header{
+    background-color: black;
+  }
+
+  main{
+    background-color: white;
+  }
+
+  footer{
+    background-color:black;
+  }
+
+  
+  nav li{
+    display: inline;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: chartreuse;
+
+  }
+
+
+ul{
+  display: inline;
+}
+clase apratiit ee ahor
+
+.contenedor-limite-2{
+margin: 0px auto;
+max-width: 1500px;
+text-align: center;
+background-color: blueviolet;
+}
+.contenedor-padre{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.parent {
+  max-width: 400px;
+  margin: 0 auto;
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 10px;
+grid-row-gap: 8px;
+}
+
+.div1 { grid-area: 1 / 1 / 2 / 3; 
+}
+
+.div1 img{
+  width: 100%;
+}
+
+
+.div2 { grid-area: 2 / 1 / 3 / 2;
+ }
+
+.div2 img{
+  width: 100%;
+  height: 100%;
+}
+
+.div3 { grid-area: 2 / 2 / 3 / 3; 
+}
+
+.div3 img{
+  width: 100%;
+}
+
+
+
+@media screen and (max-width: 580px){
+    header{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    
+
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+/********pseudaclases******/
+
+h1:hover{
+  transform: scale(0.5);
+}
+
+
+nav a:hover{
+    color:blue;
+}
